@@ -5,6 +5,7 @@
 # handler = WebhookHandler('0ba65702ffed4d5de3887078e07b88ba')
 
 from flask import Flask, request, abort
+import os
 
 from linebot import (
     LineBotApi, WebhookHandler
